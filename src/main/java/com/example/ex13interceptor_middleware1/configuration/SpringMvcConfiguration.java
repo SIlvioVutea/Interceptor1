@@ -16,14 +16,10 @@ public class SpringMvcConfiguration implements WebMvcConfigurer {
     @Autowired
     private LegacyInterceptor testInterceptor;
 
-    @Autowired
-    private LoggedUserInterceptor loggedUserInterceptor;
-
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(apiLoggingInterceptor);
         registry.addInterceptor(testInterceptor);
-        registry.addInterceptor(loggedUserInterceptor);
     }
 
 

@@ -1,7 +1,7 @@
-package com.example.ex13interceptor_middleware1.configuration;
+package com.example.interceptor1.configuration;
 
-import com.example.ex13interceptor_middleware1.interceptors.APILoggingInterceptor;
-import com.example.ex13interceptor_middleware1.interceptors.LegacyInterceptor;
+import com.example.interceptor1.interceptors.APILoggingInterceptor;
+import com.example.interceptor1.interceptors.LegacyInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

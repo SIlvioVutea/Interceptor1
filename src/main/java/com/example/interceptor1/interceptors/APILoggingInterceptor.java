@@ -1,9 +1,7 @@
-package com.example.ex13interceptor_middleware1.interceptors;
+package com.example.interceptor1.interceptors;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.aspectj.weaver.loadtime.Agent;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

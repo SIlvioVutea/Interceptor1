@@ -1,4 +1,4 @@
-package com.example.ex13interceptor_middleware1.interceptors;
+package com.example.interceptor1.interceptors;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

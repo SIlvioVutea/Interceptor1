@@ -1,4 +1,4 @@
-package com.example.ex13interceptor_middleware1;
+package com.example.interceptor1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

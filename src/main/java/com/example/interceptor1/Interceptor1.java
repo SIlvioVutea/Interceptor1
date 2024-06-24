@@ -1,13 +1,14 @@
-package com.example.ex13interceptor_middleware1;
+package com.example.interceptor1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class Ex13interceptorMiddleware1Application {
+public class Interceptor1 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Ex13interceptorMiddleware1Application.class, args);
+		SpringApplication.run(Interceptor1.class, args);
 	}
 
 }
